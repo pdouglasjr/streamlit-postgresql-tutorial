@@ -1,1 +1,6 @@
+# exclude virtual environment
 venv/
+
+# exclude postgresql secrets
+.streamlit/secrets.toml
+
