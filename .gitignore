@@ -1,5 +1,5 @@
 # exclude virtual environment
-venv/
+.venv/
 
 # exclude postgresql secrets
 .streamlit/secrets.toml

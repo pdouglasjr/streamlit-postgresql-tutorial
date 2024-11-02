@@ -3,6 +3,5 @@
 import streamlit as st
 
 # Initialize connection
-conn = st.connection("postgresql", type="sql")
+conn = st.connection(name="postgresql", type="sql")
 
-print(conn)
